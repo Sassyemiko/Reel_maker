@@ -37,26 +37,26 @@ Transform Reddit stories into engaging short-form videos (TikTok/Reels/Shorts) -
 📁 Project Structure
 
 Reels_maker/
-├── main.py                 # Main pipeline orchestration
-├── server.py               # Flask web server
-├── video_generator.py      # Video processing (Modes 1&2)
-├── quick_overlay.py        # MP4 overlay mode (Mode 3)
-├── reddit_card.py          # Reddit card generation
-├── audio.py                # TTS audio generation
-├── force_alignment.py      # Word-level timestamps (wav2vec2)
-├── dict.py                 # Text preprocessing
-├── scraping.py             # Reddit scraping
-├── llm_service.py          # Local LLM (Llama-3-8B)
-├── search.py               # Sentiment analysis (VADER)
-├── image_overlay.py        # Character overlay
-├── requirements.txt        # Python dependencies
-├── templates/
-│   └── web.html           # Web interface
-├── reddit_card/
-│   └── template.png       # Card template
-├── models/                 # LLM model (download separately)
-└── reels/
-    └── videos/            # Background videos
+├── main.py                 # Main pipeline orchestration <br>
+├── server.py               # Flask web server <br>
+├── video_generator.py      # Video processing (Modes 1&2)<br>
+├── quick_overlay.py        # MP4 overlay mode (Mode 3)<br>
+├── reddit_card.py          # Reddit card generation<br>
+├── audio.py                # TTS audio generation<br>
+├── force_alignment.py      # Word-level timestamps (wav2vec2)<br>
+├── dict.py                 # Text preprocessing<br>
+├── scraping.py             # Reddit scraping<br>
+├── llm_service.py          # Local LLM (Llama-3-8B)<br>
+├── search.py               # Sentiment analysis (VADER)<br>
+├── image_overlay.py        # Character overlay<br>
+├── requirements.txt        # Python dependencies<br>
+├── templates/<br>
+│   └── web.html          # Web interface<br>
+├── reddit_card/<br>
+│   └── template.png       # Card template<br>
+├── models/                 # LLM model (download separately)<br>
+└── reels/<br>
+    └── videos/            # Background videos<br>
 
 
 👀 FAQ
