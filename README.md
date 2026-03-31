@@ -61,19 +61,19 @@ Reels_maker/
 
 👀 FAQ
 
-Q: Do I need internet connection?
+Q: Do I need internet connection?<br>
 A: Only for initial setup (downloading model, dependencies). After that, works offline.
 
-Q: Can I use my own voices?
+Q: Can I use my own voices?<br>
 A: Currently supports 9 Microsoft Edge TTS voices. Custom voices require code modification.
 
-Q: How long does video generation take?
+Q: How long does video generation take?<br>
 A: 3-5 minutes for full pipeline, 30-60 seconds for MP4 upload mode.
 
-Q: Can I use this commercially?
+Q: Can I use this commercially?<br>
 A: Yes, MIT License allows commercial use.
 
-Q: Is my data sent anywhere?
+Q: Is my data sent anywhere?<br>
 A: No, everything runs locally on your machine.
 
 
