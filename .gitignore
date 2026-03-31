@@ -1,0 +1,83 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+env/
+venv/
+ENV/
+.venv
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables (IMPORTANT - contains local paths)
+.env
+
+# Generated Files (auto-created during runtime)
+audio/*.wav
+audio/*.mp3
+audio/test_*.mp3
+final/*.mp4
+texts/*.txt
+texts/*.ass
+reddit_card/card.png
+reddit_card/test_card.png
+reddit_card/temp_*.png
+uploads/*.mp4
+testing.txt
+texts/image_overlay.txt
+texts/processed_output.txt
+texts/oof.txt
+texts/scraped_url.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (TOO LARGE FOR GITHUB - users download separately)
+models/*.gguf
+models/*.bin
+models/*.pt
+models/*.pth
+
+# Logs
+*.log
+logs/
+
+# Temporary Files
+*.tmp
+*.temp
+
+
+# Models (TOO LARGE FOR GITHUB - users download separately)
+models/*.gguf
+models/*.bin
+models/*.pt
+models/*.pth
+models/

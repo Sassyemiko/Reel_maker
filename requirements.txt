@@ -1,0 +1,41 @@
+# requirements.txt
+# Reels_maker - AI-Powered Viral Video Generator
+# 100% Offline - No API Keys Required
+
+# Core Dependencies
+torch==2.0.0
+torchaudio==2.0.0
+transformers==4.35.0
+accelerate==0.24.0
+
+# Web Framework
+flask==3.0.0
+python-dotenv==1.0.0
+
+# Audio Generation
+edge-tts==6.1.0
+
+# Video Processing
+moviepy==1.0.3
+imageio-ffmpeg==0.4.9
+Pillow==10.1.0
+
+# Local LLM (Llama-3-8B)
+llama-cpp-python==0.2.50
+
+# Reddit Scraping
+requests==2.31.0
+
+# Sentiment Analysis
+vaderSentiment==3.3.2
+nltk==3.8.1
+
+# Text Processing
+inflect==7.0.0
+
+# Utilities
+IPython==8.18.0
+
+# Optional (for distributed tasks - not required for basic usage)
+# celery==5.3.4
+# redis==5.0.1
